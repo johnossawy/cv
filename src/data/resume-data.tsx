@@ -20,18 +20,18 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "John Ossawy",
+  initials: "JO",
+  location: "Belfast, UK",
+  locationLink: "https://maps.app.goo.gl/5A8uRhtPie7gvaf56",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Security Engineer with 18 years’ experience working in the Fintech industry as part of and leading highly functional teams which have been responsible for research, development, implementation, testing and review of cyber security in order to protect information and prevent unauthorised access. Highly organised, versatile and results-oriented team player with an energetic and articulate attitude.",
+  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQHOQk3Ex-QUMQ/profile-displayphoto-shrink_800_800/0/1669049052034?e=1709769600&v=beta&t=jsrvvcw-sKUvbR1v6V2AflyDv6zRX8nSRNVRYEXXU60",
+  personalWebsiteUrl: "https://johnossawy.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
+    email: "john.ossawy@gmail.com",
     tel: "+48530213401",
     social: [
       {
@@ -41,46 +41,46 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/johnossawy/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/johnossawy",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Queens University Belfast",
+      degree: "Bachelor's Degree in Business Information Technology",
+      start: "2003",
+      end: "2006",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Signifyd",
+      link: "https://signifyd.com",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Senior Security Engineer II",
       logo: ParabolLogo,
       start: "2021",
-      end: "2024",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Lead Senior Security Engineer focused on improving security outcomes across the company. Operating at the front line of risk to identify vulnerabilities and threats and collaborate cross-functionally across the organisation to implement defences.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "TPICAP",
+      link: "https://tpicap.com/tpicap/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Cyber Security Team Lead",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2019",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Team Lead for IT Security, managing Security Engineers in EMEA & APAC for the world's largest inter-dealer broker. During my tenure, I was instrumental in elevating TPICAP's security posture, leading significant projects, and nurturing a competent and responsive security team. My efforts were crucial in enhancing the company's cybersecurity resilience and operational efficiency.",
     },
     {
       company: "Jojo Mobile",
