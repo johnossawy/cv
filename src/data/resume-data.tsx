@@ -1,42 +1,34 @@
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
+  CMEGroupLogo,
+  FujitsuLogo,
   Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
   Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
+  SignifydLogo,
+  TPICAPLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "John Ossawy",
   initials: "JO",
-  location: "Belfast, UK",
-  locationLink: "https://maps.app.goo.gl/5A8uRhtPie7gvaf56",
+  location: "Belfast, Northern Ireland - UK",
+  locationLink: "https://www.google.com/maps/place/Belfast",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Experienced Cyber Security Engineer with 18 years in the Fintech industry",
   summary:
-    "Security Engineer with 18 years’ experience working in the Fintech industry as part of and leading highly functional teams which have been responsible for research, development, implementation, testing and review of cyber security in order to protect information and prevent unauthorised access. Highly organised, versatile and results-oriented team player with an energetic and articulate attitude.",
+        "Proven track record of establishing and " +
+        "leading highly functional teams responsible for research, development, implementation, testing and review of cyber security " +
+        "in order to protect information and prevent unauthorised access. " +
+        "Highly organised, versatile and results-oriented team player with an energetic and articulate attitude.",
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQHOQk3Ex-QUMQ/profile-displayphoto-shrink_800_800/0/1669049052034?e=1709769600&v=beta&t=jsrvvcw-sKUvbR1v6V2AflyDv6zRX8nSRNVRYEXXU60",
   personalWebsiteUrl: "https://johnossawy.me",
   contact: {
     email: "john.ossawy@gmail.com",
-    tel: "+48530213401",
+    tel: "+447729273768",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/johnossawy",
         icon: GitHubIcon,
       },
       {
@@ -53,226 +45,141 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Queens University Belfast",
+      school: "Queen's University Belfast",
       degree: "Bachelor's Degree in Business Information Technology",
       start: "2003",
       end: "2006",
     },
+    {
+      school: "Belfsat Met",
+      degree: "Higher National Diploma Business Information Technology - Distinction",
+      start: "2001",
+      end: "2003",
+  },
   ],
   work: [
     {
       company: "Signifyd",
       link: "https://signifyd.com",
-      badges: ["Remote"],
-      title: "Senior Security Engineer II",
-      logo: ParabolLogo,
+      badges: ["Senior Security Engineer II"],
+      title: "Senior Security Engineer → Lead Security Engineer",
+      logo: SignifydLogo,
       start: "2021",
       end: "Present",
       description:
         "Lead Senior Security Engineer focused on improving security outcomes across the company. Operating at the front line of risk to identify vulnerabilities and threats and collaborate cross-functionally across the organisation to implement defences.",
+      skills: ["Secure coding", "Security Frameworks", "DevSecOps integration", "Container Security", "API Security", "Cloud Security"]
     },
     {
       company: "TPICAP",
       link: "https://tpicap.com/tpicap/",
-      badges: ["Remote"],
+      badges: ["Lead Security Engineer"],
       title: "Cyber Security Team Lead",
-      logo: ClevertechLogo,
+      logo: TPICAPLogo,
       start: "2019",
       end: "2021",
       description:
         "Team Lead for IT Security, managing Security Engineers in EMEA & APAC for the world's largest inter-dealer broker. During my tenure, I was instrumental in elevating TPICAP's security posture, leading significant projects, and nurturing a competent and responsive security team. My efforts were crucial in enhancing the company's cybersecurity resilience and operational efficiency.",
+      skills: ["Application Security", "Threat & Vulnerability Management", "DevSecOps", "Monitoring & SIEM Alerting", "Incident Management", "Cloud Security"]
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      company: "CME Group",
+      link: "https://www.cmegroup.com/",
+      badges: ["Cyber Security Engineer"],
+      title: "Lead Security Engineer for CDEO",
+      logo: CMEGroupLogo,
+      start: "2017",
+      end: "2019",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Belfast Lead for Cyber Defense Engineering & Operations Team reporting to Global Information Security Department operating across AMER, EMEA & APAC.",
+      skills: ["Application Security", "Data Integrity", "Incident Managment", "Monitoring & Alerting", "Threat & Vulnerability Management"]
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "Fujitsu",
+      link: "https://www.fujitsu.com/uk/",
+      badges: ["Senior Security Engineer"],
+      title: "Graduate Engineer → Security Engineer II → Senior Security Engineer",
+      logo: FujitsuLogo,
+      start: "2006",
+      end: "2017",
+      description:
+        "Joined Fujitsu as part of their Graduate programme and offered a permanent position as a Security Engineer II, through a strong working ethic and attention to detail, continued to progress during my time with the company to Senior Security Engineer",
+      skills: ["Network Security", "Endpoint Security", "Threat & Vulnerability Management", "Monitoring & SIEM Alerting"]
     },
-  ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
-  ],
-  projects: [
-    {
-      title: "Consultly",
+],
+projects: [
+  {
+      title: "Sand, Blood, Water",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+          "Rust",
+          "Bevy",
+          "Tokio",
+          "Wasm",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Desert based RPG written entirely in Rust. Most current, active project.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+          href: "https://github.com/toandeaf/sandbloodwater",
       },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+  },
+  {
+      title: "Breadalbane UI",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+          "Typescript",
+          "React",
+          "Node.js",
+          "Firebase"
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "PWA for small Scottish finance brokerage. Actively used by clients.",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+          href: "https://breadalbane-ui.web.app/",
       },
-    },
-    {
-      title: "Evercast",
+  },
+  {
+      title: "crawler",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+          "Rust",
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      description: "Highly performant, low overhead, multi-threaded toy webcrawler.",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+          href: "https://github.com/toandeaf/crawler",
       },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+  },
+  {
+      title: "sounds_good",
+      techStack: [
+          "Rust",
+          "gRPC"
+      ],
+      description: "Bi-directional audio streaming over gRPC",
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+          href: "https://github.com/toandeaf/sounds_good",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+  },
+  {
+      title: "igniter",
+      techStack: [
+          "Java",
+          "Apache Ignite",
+          "Spring Boot",
+          "Hibernate",
+      ],
+      description: "Distributed caching with Ignite and Spring Boot",
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+          href: "https://github.com/toandeaf/igniter",
       },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+  },
+  {
+      title: "torenz",
+      techStack: [
+          "Rust",
+          "Tauri",
+          "Typescript",
+          "React",
+      ],
+      description: "Just started. Desktop torrent client impl.",
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+          href: "https://github.com/toandeaf/torenz",
       },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+  },
   ],
 } as const;

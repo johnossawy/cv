@@ -11,9 +11,11 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1600px", // Increased from 1400px to 1600px
+        // You can even add a larger breakpoint if needed
+        "3xl": "1800px",
       },
     },
     extend: {
