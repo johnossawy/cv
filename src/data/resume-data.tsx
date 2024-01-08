@@ -66,8 +66,11 @@ export const RESUME_DATA = {
       logo: SignifydLogo,
       start: "2021",
       end: "Present",
-      description:
-        "Lead Senior Security Engineer focused on improving security outcomes across the company. Operating at the front line of risk to identify vulnerabilities and threats and collaborate cross-functionally across the organisation to implement defences.",
+      description: `
+        Lead Senior Security Engineer focused on improving security outcomes across the company. Operating at the front line of risk to identify vulnerabilities and threats and collaborate cross-functionally across the organisation to implement defences.
+
+        I've led critical security initiatives, conducting 246 Application Security Design Reviews using frameworks like CIS, NIST, and OWASP. My focus on enhancing security and managing third-party penetration tests has significantly bolstered our security posture. I've played a pivotal role in vulnerability management and cloud controls, contributing to the successful attainment of SOC2/PCI compliance in 2021/2022/2023.
+      `,
       skills: ["Secure coding", "Security Frameworks", "DevSecOps integration", "Container Security", "API Security", "Cloud Security"]
     },
     {
@@ -78,8 +81,12 @@ export const RESUME_DATA = {
       logo: TPICAPLogo,
       start: "2019",
       end: "2021",
-      description:
-        "Team Lead for IT Security, managing Security Engineers in EMEA & APAC for the world's largest inter-dealer broker. During my tenure, I was instrumental in elevating TPICAP's security posture, leading significant projects, and nurturing a competent and responsive security team. My efforts were crucial in enhancing the company's cybersecurity resilience and operational efficiency.",
+      description: `
+        Team Lead for IT Security, managing 15 Security Engineers in EMEA & APAC for the world's largest inter-dealer broker. During my tenure, I was instrumental in elevating TPICAP's security posture, leading significant projects and directly contributing to our robust cybersecurity operations and reporting to the CISO as part of the Senior Security Leadership Team.
+
+        
+        I reprioritised Incident Response protocols, implementing sophisticated DLP controls with Azure Information Protection and Clearswift DLP. My leadership in deploying advanced SaaS security solutions like Trend ApexOne, Qualys, Symantec MSS, and Thycotic Secret Server Cloud significantly enhanced endpoint protection, vulnerability management, SIEM, and IAM/PAM systems.
+        `,
       skills: ["Application Security", "Threat & Vulnerability Management", "DevSecOps", "Monitoring & SIEM Alerting", "Incident Management", "Cloud Security"]
     },
     {
@@ -90,8 +97,16 @@ export const RESUME_DATA = {
       logo: CMEGroupLogo,
       start: "2017",
       end: "2019",
-      description:
-        "Belfast Lead for Cyber Defense Engineering & Operations Team reporting to Global Information Security Department operating across AMER, EMEA & APAC.",
+      description: `
+        Belfast Lead for Cyber Defense Engineering & Operations Team reporting to Global Information Security Department operating across AMER, EMEA & APAC.
+        My leadership in the Belfast CDEO team's formation and growth was pivotal, including recruiting key talent and enhancing team visibility company-wide.
+        
+
+        I played a central role in crafting and implementing comprehensive IT security policies and procedures, while ensuring the security and monitoring of 18 critical applications. As a subject matter expert in Data Access Management, I oversaw the security of over 900 databases.
+        
+
+        My initiatives in disaster recovery and automation significantly improved operational efficiency, with a 40% reduction in post-DR check times. I also led incident response coordination and a seamless year-long technology refresh program, ensuring continuous business operations without disruptions.
+        `,
       skills: ["Application Security", "Data Integrity", "Incident Managment", "Monitoring & Alerting", "Threat & Vulnerability Management"]
     },
     {
@@ -102,83 +117,48 @@ export const RESUME_DATA = {
       logo: FujitsuLogo,
       start: "2006",
       end: "2017",
-      description:
-        "Joined Fujitsu as part of their Graduate programme and offered a permanent position as a Security Engineer II, through a strong working ethic and attention to detail, continued to progress during my time with the company to Senior Security Engineer",
+      description: `
+        Started my career at Fujitsu through their Graduate programme and progressed to a permanent position as a Security Engineer II. My commitment to excellence and meticulous attention to detail further propelled my progression to a Senior Security Engineer position.
+
+        
+        Functioned as the SME for endpoint security, adeptly managing over 250,000 endpoints across various contracts. A highlight of my tenure includes successfully mitigating a critical WannaCry ransomware attack within the Northern Ireland Libraries network, showcasing my proficiency in crisis management and cybersecurity resilience.
+        `,
       skills: ["Network Security", "Endpoint Security", "Threat & Vulnerability Management", "Monitoring & SIEM Alerting"]
     },
 ],
 projects: [
   {
-      title: "Sand, Blood, Water",
+      title: "Fake Domain Finder",
       techStack: [
-          "Rust",
-          "Bevy",
-          "Tokio",
-          "Wasm",
+          "Python",
+          "Threat Hunting"
       ],
-      description: "Desert based RPG written entirely in Rust. Most current, active project.",
+      description: "Identifies potentially fake or suspicious domains related to specific search queries.",
       link: {
-          href: "https://github.com/toandeaf/sandbloodwater",
+          href: "https://github.com/johnossawy/FakeDomainFinder",
       },
   },
   {
-      title: "Breadalbane UI",
+      title: "Github Public Repo Tracker",
       techStack: [
-          "Typescript",
-          "React",
-          "Node.js",
-          "Firebase"
+          "Python",
+          "DLP"
       ],
-      description: "PWA for small Scottish finance brokerage. Actively used by clients.",
+      description: "Fetches and analyzes repository data for a list of users.",
       link: {
-          href: "https://breadalbane-ui.web.app/",
+          href: "https://github.com/johnossawy/GitHubPubRepoTracker",
       },
   },
   {
-      title: "crawler",
+      title: "POC for TeamCity exploit",
       techStack: [
-          "Rust",
+          "Python",
+          "Docker",
+          "DevSecOps"
       ],
-      description: "Highly performant, low overhead, multi-threaded toy webcrawler.",
+      description: "TeamCity Critical Authentication Bypass in CI/CD POC CVE-2023-42793",
       link: {
-          href: "https://github.com/toandeaf/crawler",
-      },
-  },
-  {
-      title: "sounds_good",
-      techStack: [
-          "Rust",
-          "gRPC"
-      ],
-      description: "Bi-directional audio streaming over gRPC",
-      link: {
-          href: "https://github.com/toandeaf/sounds_good",
-      },
-  },
-  {
-      title: "igniter",
-      techStack: [
-          "Java",
-          "Apache Ignite",
-          "Spring Boot",
-          "Hibernate",
-      ],
-      description: "Distributed caching with Ignite and Spring Boot",
-      link: {
-          href: "https://github.com/toandeaf/igniter",
-      },
-  },
-  {
-      title: "torenz",
-      techStack: [
-          "Rust",
-          "Tauri",
-          "Typescript",
-          "React",
-      ],
-      description: "Just started. Desktop torrent client impl.",
-      link: {
-          href: "https://github.com/toandeaf/torenz",
+          href: "https://github.com/johnossawy/CVE-2023-42793_POC",
       },
   },
   ],
